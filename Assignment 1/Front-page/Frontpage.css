@@ -1,0 +1,64 @@
+body{
+    background-image: url('background\ front.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+}
+button{
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #b25707;
+    border-radius: 75px;
+    position:relative;
+    left: 75%;
+    margin-top: 100px;
+    font-size: large;
+    font-weight: bold;
+    color:#b25707;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.5s;
+    position:relative;
+    overflow: hidden;
+}
+button:hover{
+  color:#ffffff;
+}
+button::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #000000;
+    z-index: -1;
+    transition: 0.5s;
+    bottom: 0;
+   
+}
+button:hover::before{
+ height: 180%;
+}
+.main{
+  margin-left: 69%;
+  margin-top: 5%;
+  color: #fbf9f8;
+  font-size: 29px;
+  transition: 0.5s
+}
+.main1{
+  color:#b25707;
+  margin-left: 69%;
+  margin-top: 5%;
+  font-family:cursive;
+  font-size: 25px;
+  transition: 0.5s;
+
+}
+.main1 :hover{
+    color:#f1f5f2
+
+}
+.main :hover{
+    color:#b25707
+
+}
