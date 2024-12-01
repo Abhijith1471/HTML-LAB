@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+html {
+	background-color: lightskyblue;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color: black;
+	font-size: 10px;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;
+}
+
+header {
+	font-size: 1.8rem;
+}
+
+/* STEP 1: Float the HEADER IMG to the left */
+header img {
+	float: left;
+}
+
+header a {
+	text-decoration: none;
+}
+
+/* STEP 2: Set the text-align for both the HEADER H1 and the HEADER H2 to right */
+header h1,
+header h2 {
+	text-align: right;
+}
+
+/* STEP 3a: Reduce the margin-bottom of the HEADER H1 to zero */
+header h1 {
+	margin-bottom: 0;
+}
+
+/* STEP 3b: Set the margin-top of the HEADER H2 to zero */
+header h2 {
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+/* STEP 4d: Set padding-left of the UL element to zero */
+header nav ul {
+	padding-left: 0;
+}
+
+/* STEP 4a: Apply a dashed red outline around LI elements */
+/*header nav li {
+	/* border: 1px dashed red; */ /* Uncomment for testing, comment out when no longer needed }*/
+
+
+/* STEP 4b: Set LI elements to display inline-block for horizontal alignment */
+/* STEP 4c: Add a margin-right of 0.5em */
+header nav li {
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+/* STEP 4e: Red border rule commented out since it's no longer needed */
+
+/* MAIN section styling */
+main {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	text-align: justify;
+	background-color: white;
+	display: flex;
+	flex-direction: row; /* Arrange SECTION and ASIDE side by side */
+}
+
+/* STEP 5a: Add a 1px dotted hotpink border around MAIN SECTION */
+main section {
+	/* border: 1px dotted hotpink; */ /* Uncomment for testing, comment out when no longer needed */
+	width: 60%;
+}
+
+/* STEP 5b: Add 1em padding on all sides of MAIN SECTION */
+main section {
+	padding: 1em;
+}
+
+main section time {
+	font-style: italic;
+}
+
+/* STEP 5c: Add border and padding for MAIN ASIDE */
+main aside {
+	/* border: 1px solid #ccc; */ /* Uncomment for testing, comment out when no longer needed */
+	padding: 1em 1em 1em 0; /* Top, right, bottom only */
+	width: 40%;
+}
+
+/* STEP 7a: Target images of colored building blocks in ASIDE with alt attribute ending with "block" */
+main aside img[alt$="block"] {
+	position: relative;
+	left: -3rem; /* Adjust positioning */
+}
+
+/* STEP 7b: Position block images to the left */
+main aside img[alt$="block"] {
+	position: relative;
+	left: -3rem;
+}
+
+.new-feature {
+	padding-left: 25px;
+	background-image: url("../images/new.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+#emailAddress {
+	font-weight: bold;
+}
+
+[rel="external"] {
+	padding-right: 20px;
+	background-image: url("../images/extlink.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+/* Styling links in MAIN */
+main a {
+	text-decoration: none;
+	color: lightskyblue;
+	font-weight: bold;
+}
+
+main a:hover {
+	text-decoration: underline;
+	color: orange;
+}
+
+/* Styling the first letter in blockquote */
+blockquote::first-letter {
+	font-size: 2em;
+}
+
+/* STEP 6: Add margin-top of 2rem to FOOTER */
+footer {
+	margin-top: 2rem;
+	font-size: 1.6rem;
+}
+
+footer p {
+	text-align: right;
+}
+
+/* Styling for SECTION paragraphs */
+section > p {
+	text-indent: 2em;
+}
+
+/* White text for H1, H2, and FOOTER */
+h1, h2, footer {
+	color: white;
+}
