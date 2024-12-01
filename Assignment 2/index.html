@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight - Christopher Nolan's Masterpiece</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #1c1c1c;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0a0a0a;
+        }
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 3rem;
+            color: #e6e6e6;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .poster-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .poster-container {
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .poster-container:hover {
+            transform: scale(1.05);
+        }
+
+        .poster-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .preview-section {
+            background-color: #0a0a0a;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .preview-video {
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .synopsis {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-left: 4px solid #e6e6e6;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #e6e6e6;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1>The Dark Knight</h1>
+    </header>
+
+    <section class="poster-section container">
+        <div class="poster-container">
+            <a href="https://en.wikipedia.org/wiki/The_Dark_Knight" target="_blank">
+                <img src="Image.jpeg" alt="The Dark Knight Movie Poster">
+            </a>
+        </div>
+    </section>
+
+    <section class="synopsis container">
+        <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>
+    </section>
+
+    <section class="preview-section">
+        <div class="preview-video container">
+            <a href="https://www.youtube.com/watch?v=EXeTwQWrcwY&t=3s&ab_channel=RottenTomatoesClassicTrailers" target="_blank">
+                <img src="Trailer.jpg" alt="The Dark Knight Movie Trailer" style="height: 300px;">
+            </a>
+        </div>
+    </section>
+
+    <div class="links container">
+        <a href="https://www.imdb.com/title/tt0468569/" target="_blank">IMDb</a>
+        <a href="https://www.rottentomatoes.com/m/the_dark_knight" target="_blank">Rotten Tomatoes</a>
+        <a href="https://www.warnerbros.com/movies/dark-knight" target="_blank">Official Site</a>
+    </div>
+</body>
+</html>
