@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bíró Ballpoint Pen - Home</title>
+    <link rel="icon" href="pen.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/alpine.min.js" defer></script>
+    <style>
+        body {
+            background-color: #F5F5F5;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .vintage-border {
+            border: 3px solid #6B4423;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+        .vintage-button {
+            background-color: #8B4513;
+            color: #FFF8DC;
+            transition: all 0.3s ease;
+        }
+        .vintage-button:hover {
+            background-color: #5D3A1A;
+            transform: scale(1.05);
+        }
+        .nav-link {
+            color: #6B4423;
+            font-weight: bold;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #8B4513;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto px-4">
+        <!-- Navigation -->
+        <nav class="flex justify-center items-center py-6">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About the Pen</a>
+            <a href="reviews.html" class="nav-link">Customer Reviews</a>
+        </nav>
+
+        <!-- Header -->
+        <header class="text-center py-8">
+            <h1 class="text-4xl font-bold text-brown-800 mb-4">The Bíró Ballpoint Pen</h1>
+            <h2 class="text-2xl text-gray-600">A Writing Revolution in Your Hand!</h2>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-4xl mx-auto">
+            <!-- Hero Section -->
+            <section class="bg-white p-8 mb-8 rounded-lg vintage-border">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-4 md:mr-8">
+                        <img src="pen.jpg" alt="Bíró Ballpoint Pen" class="rounded-lg shadow-lg" style="height: 150px;">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-semibold mb-4">Revolutionary Writing Technology!</h3>
+                        <p class="mb-4">Introducing the most advanced writing instrument of the 20th century. No more ink blots, no more messy fountain pens - just smooth, reliable writing!</p>
+                        <div class="text-center">
+                            <a href="about.html" class="vintage-button inline-block px-6 py-3 rounded-full text-lg font-bold">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Key Features -->
+            <section class="bg-white p-8 mb-8 rounded-lg vintage-border">
+                <h3 class="text-2xl font-semibold mb-6 text-center">Why Choose the Bíró Pen?</h3>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-gray-100 p-4 rounded text-center">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-brown-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <h4 class="font-bold mb-2">Unprecedented Reliability</h4>
+                        <p>Consistent ink flow in any condition, anywhere!</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded text-center">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-brown-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"/>
+                        </svg>
+                        <h4 class="font-bold mb-2">Quick Drying Ink</h4>
+                        <p>No more smudges or waiting for ink to dry!</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded text-center">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-brown-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd"/>
+                        </svg>
+                        <h4 class="font-bold mb-2">Long-Lasting Design</h4>
+                        <p>Write up to 2 miles with a single pen!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="bg-white p-8 rounded-lg vintage-border text-center">
+                <h3 class="text-2xl font-semibold mb-4">Transform Your Writing Experience Today!</h3>
+                <p class="mb-6">Be part of the writing revolution. Order your Bíró Ballpoint Pen now for just $1.50!</p>
+                <a href="reviews.html" class="vintage-button inline-block px-8 py-4 rounded-full text-lg font-bold">See Customer Reviews</a>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 text-gray-600">
+            <p>© 1944 Bíró Pen Company. All Rights Reserved.</p>
+            <p>Manufactured in Buenos Aires, Argentina</p>
+        </footer>
+    </div>
+</body>
+</html>

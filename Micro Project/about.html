@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bíró Ballpoint Pen - About</title>
+    <link rel="icon" href="pen.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F5F5F5;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .vintage-border {
+            border: 3px solid #6B4423;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+        .vintage-button {
+            background-color: #8B4513;
+            color: #FFF8DC;
+            transition: all 0.3s ease;
+        }
+        .vintage-button:hover {
+            background-color: #5D3A1A;
+            transform: scale(1.05);
+        }
+        .nav-link {
+            color: #6B4423;
+            font-weight: bold;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #8B4513;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto px-4">
+        <!-- Navigation -->
+        <nav class="flex justify-center items-center py-6">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About the Pen</a>
+            <a href="reviews.html" class="nav-link">Customer Reviews</a>
+        </nav>
+
+        <!-- Header -->
+        <header class="text-center py-8">
+            <h1 class="text-4xl font-bold text-brown-800 mb-4">About the Bíró Ballpoint Pen</h1>
+            <h2 class="text-2xl text-gray-600">The Story of a Writing Revolution</h2>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-4xl mx-auto">
+            <!-- Inventor Story -->
+            <section class="bg-white p-8 mb-8 rounded-lg vintage-border">
+                <h3 class="text-2xl font-semibold mb-4">The Genius Behind the Invention</h3>
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-4 md:mr-8">
+                        <img src="image.png" alt="László Bíró" class="rounded-lg shadow-lg" style="height: 200px;">
+                    </div>
+                    <div class="md:w-2/3">
+                        <p class="mb-4">László Bíró, a Hungarian journalist, became frustrated with fountain pens that leaked and smudged. In 1938, he revolutionized writing by developing a new type of pen with a unique ball-and-socket mechanism.</p>
+                        <p>Inspired by the quick-drying ink used in newspaper printing, Bíró created a pen that could write smoothly on almost any surface, at any angle - a true innovation of its time!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Details -->
+            <section class="bg-white p-8 mb-8 rounded-lg vintage-border">
+                <h3 class="text-2xl font-semibold mb-6">Technical Marvel</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-gray-100 p-4 rounded">
+                        <h4 class="font-bold mb-2">Revolutionary Mechanism</h4>
+                        <p>The ball-point tip acts like a small metal marble that rolls ink onto the paper from a pressurized tube. This design prevents ink from flowing too quickly or leaking.</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded">
+                        <h4 class="font-bold mb-2">Ink Technology</h4>
+                        <p>Our specially formulated quick-drying ink is thicker than traditional fountain pen ink, ensuring clean, crisp writing without smudges or blots.</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded">
+                        <h4 class="font-bold mb-2">Versatile Performance</h4>
+                        <p>Tested in extreme conditions - from high-altitude aircraft to desert environments - the Bíró pen performs consistently in ways no other pen can!</p>
+                    </div>
+                    <div class="bg-gray-100 p-4 rounded">
+                        <h4 class="font-bold mb-2">Longevity</h4>
+                        <p>One Bíró pen can write up to 2 miles of text, outlasting multiple fountain pens or pencils. True value for your money!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Historical Context -->
+            <section class="bg-white p-8 rounded-lg vintage-border">
+                <h3 class="text-2xl font-semibold mb-4">A Pen That Changed the World</h3>
+                <p class="mb-4">During World War II, the Bíró pen became crucial for military operations. Pilots especially loved our pen because fountain pens were unreliable at high altitudes. The consistent performance and ability to write in any condition made it an invaluable tool.</p>
+                <p>From newspapers to battlefields, the Bíró ballpoint pen quickly became the writing instrument of choice for professionals worldwide.</p>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 text-gray-600">
+            <p>© 1944 Bíró Pen Company. All Rights Reserved.</p>
+            <p>Manufactured in Buenos Aires, Argentina</p>
+        </footer>
+    </div>
+</body>
+</html>

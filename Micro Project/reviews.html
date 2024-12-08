@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bíró Ballpoint Pen - Reviews</title>
+    <link rel="icon" href="pen.jpg" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F5F5F5;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .vintage-border {
+            border: 3px solid #6B4423;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+        .vintage-button {
+            background-color: #8B4513;
+            color: #FFF8DC;
+            transition: all 0.3s ease;
+        }
+        .vintage-button:hover {
+            background-color: #5D3A1A;
+            transform: scale(1.05);
+        }
+        .nav-link {
+            color: #6B4423;
+            font-weight: bold;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #8B4513;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto px-4">
+        <!-- Navigation -->
+        <nav class="flex justify-center items-center py-6">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About the Pen</a>
+            <a href="reviews.html" class="nav-link">Customer Reviews</a>
+        </nav>
+
+        <!-- Header -->
+        <header class="text-center py-8">
+            <h1 class="text-4xl font-bold text-brown-800 mb-4">Customer Reviews</h1>
+            <h2 class="text-2xl text-gray-600">See What Our Customers Say</h2>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-4xl mx-auto">
+            <!-- Reviews Section -->
+            <section class="bg-white p-8 mb-8 rounded-lg vintage-border">
+                <h3 class="text-2xl font-semibold mb-6 text-center">Testimonials</h3>
+                <div class="space-y-6">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <p class="text-gray-800 italic mb-2">"The Bíró pen has transformed my writing experience! I love how smooth it feels on paper. No more smudges or leaks—just perfect writing every time!"</p>
+                        <p class="text-right text-gray-600 font-bold">- Sarah L., Teacher</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <p class="text-gray-800 italic mb-2">"As a pilot, I’ve struggled with fountain pens at high altitudes. The Bíró pen works perfectly no matter the environment. Truly a game-changer!"</p>
+                        <p class="text-right text-gray-600 font-bold">- John M., Pilot</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <p class="text-gray-800 italic mb-2">"This pen is a masterpiece! It lasts forever and writes beautifully. Highly recommended for professionals who need reliability and style."</p>
+                        <p class="text-right text-gray-600 font-bold">- Emily T., Journalist</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="bg-white p-8 rounded-lg vintage-border text-center">
+                <h3 class="text-2xl font-semibold mb-4">Share Your Experience</h3>
+                <p class="mb-6">We love hearing from our customers! Let us know how the Bíró pen has made a difference in your life.</p>
+                <a href="index.html" class="vintage-button inline-block px-8 py-4 rounded-full text-lg font-bold">Order Yours Today</a>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 text-gray-600">
+            <p>© 1944 Bíró Pen Company. All Rights Reserved.</p>
+            <p>Manufactured in Buenos Aires, Argentina</p>
+        </footer>
+    </div>
+</body>
+</html>
